@@ -21,4 +21,8 @@ public class TestController {
             return "Connection Failed: " + e.getMessage();
         }
     }
+    @GetMapping("/test")
+    public String test() {
+        return "API Works!";
+    }
 }

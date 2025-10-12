@@ -1,4 +1,4 @@
-package com.ksra.website.ksra_website_backend;
+package com.ksra.fisherman;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

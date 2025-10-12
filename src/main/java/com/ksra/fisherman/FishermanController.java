@@ -25,7 +25,7 @@ public class FishermanController {
     }
 
     // Simple API test
-    @GetMapping("/test")
+    @GetMapping("/test1")
     public ResponseEntity<Map<String, String>> test() {
         Map<String, String> response = new HashMap<>();
         response.put("message", "API Works!");
@@ -33,7 +33,7 @@ public class FishermanController {
     }
 
     // Database connection test
-    @GetMapping("/test-db")
+    @GetMapping("/test-db1")
     public ResponseEntity<Map<String, String>> testDb() {
         Map<String, String> response = new HashMap<>();
         try (Connection conn = dataSource.getConnection()) {

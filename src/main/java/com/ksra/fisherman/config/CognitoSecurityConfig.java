@@ -25,7 +25,7 @@ public class CognitoSecurityConfig {
 
                 // Enable Cognito OAuth2 login (Hosted UI)
                 .oauth2Login(oauth2 -> oauth2
-                        .defaultSuccessUrl("/api/users", true)
+                        .defaultSuccessUrl("/api/users1", true)
                 )
 
                 // Logout handler
